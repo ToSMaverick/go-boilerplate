@@ -5,6 +5,9 @@
 - [How to Set Up Go Development in Visual Studio Code on Windows 11 | VSCode Golang Development Basics](https://www.youtube.com/watch?v=DFiXJKIF2ss)
 
 ```bash
+# Initialize app
+go mod init hello-go 
+
 # Run application
 go run main.go
 
