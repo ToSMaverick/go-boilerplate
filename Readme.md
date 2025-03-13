@@ -13,4 +13,7 @@ go run main.go
 
 # Build in bin subfolder
 go build -o ./bin/
+
+# Compile Windows binary on MacOS
+env GOOS=windows GOARCH=amd64 go build -o ./bin/hello-go.exe
 ```
